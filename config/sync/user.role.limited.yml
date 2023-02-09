@@ -1,0 +1,9 @@
+uuid: 20194daa-f396-4680-8770-cb72f020a976
+langcode: en
+status: true
+dependencies: {  }
+id: limited
+label: limited
+weight: 2
+is_admin: null
+permissions: {  }

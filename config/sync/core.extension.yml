@@ -17,6 +17,7 @@ module:
   field_group: 0
   file: 0
   filter: 0
+  fun_time: 0
   image: 0
   link: 0
   media: 0

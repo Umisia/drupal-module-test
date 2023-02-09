@@ -1,0 +1,5 @@
+name: Fun Time Module
+type: module
+description: 'my first drupal module'
+package: funtimemodule
+core_version_requirement: ^9 

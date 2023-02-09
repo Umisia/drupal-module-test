@@ -1,0 +1,14 @@
+uuid: 815a8b4a-fe3b-42f2-8fdf-d2490fedb64b
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.limited
+  module:
+    - user
+id: user_remove_role_action.limited
+label: 'Remove the limited role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: limited

@@ -1,0 +1,14 @@
+uuid: f2187559-19df-44ab-927f-d820f435867f
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.limited
+  module:
+    - user
+id: user_add_role_action.limited
+label: 'Add the limited role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: limited
