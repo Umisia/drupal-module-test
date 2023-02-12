@@ -7,7 +7,7 @@ use Drupal\Core\Form\FormStateInterface;
 
 class ConfigForm extends ConfigFormBase {
 
-    Const CONFIGNAME = "config_form2.settings.yml";
+    Const CONFIGNAME = "config_form.settings.yml";
 
     public function getFormId() {
         return "config_form_settings";

@@ -5,14 +5,10 @@ funtime.page:
     _title: 'My custom, fun module'
   requirements:
     _permission: 'access content'
-
-
-# config_form:
-# path: 'config_form'
-# defaults: 
-#   _form: '\Drupal\fun_time\Form\ConfigForm'
-#   _title: 'Config Form'
-# requirements:
-#   _permission: 'access content'
-
-#Unable to install Fun Time Module, config_form.settings already exists in active configuration. 
+config_form:
+  path: '/config_form'
+  defaults: 
+    _form: 'Drupal\fun_time\Form\ConfigForm'
+    _title: 'Config Form'
+  requirements:
+    _permission: 'access content'
